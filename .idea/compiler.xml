@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="a_ticket_common" />
+        <module name="b_ticket_model" />
+        <module name="c_ticket_utils" />
+        <module name="d_ticket_api" />
+        <module name="e_ticket_reception" />
+        <module name="f_ticket_background" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="a_ticket_common" target="1.8" />
+      <module name="b_ticket_model" target="1.8" />
+      <module name="c_ticket_utils" target="1.8" />
+      <module name="d_ticket_api" target="1.8" />
+      <module name="e_ticket_reception" target="1.8" />
+      <module name="f_ticket_background" target="1.8" />
+      <module name="ticket" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="a_ticket_common" options="-parameters" />
+      <module name="b_ticket_model" options="-parameters" />
+      <module name="c_ticket_utils" options="-parameters" />
+      <module name="d_ticket_api" options="-parameters" />
+      <module name="e_ticket_reception" options="-parameters" />
+      <module name="f_ticket_background" options="-parameters" />
+    </option>
+  </component>
+</project>
