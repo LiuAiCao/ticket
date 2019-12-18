@@ -1,6 +1,11 @@
 package com.company.common.framework.model.response;
 
+import com.company.common.framework.model.response.code.BaseResultCode;
+import lombok.Data;
+import lombok.ToString;
 
+@Data
+@ToString
 public class BaseResponse implements Response{
 
         private boolean success = SUCCESS;

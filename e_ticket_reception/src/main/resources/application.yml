@@ -1,0 +1,9 @@
+server:
+  port: 8080
+wxCount:
+  appId:  wx657c51eff582f28f
+  secret:  26a16cffeb5e776161212f8461993b0d
+spring:
+  redis:
+    host: 118.25.177.234
+    port: 6379

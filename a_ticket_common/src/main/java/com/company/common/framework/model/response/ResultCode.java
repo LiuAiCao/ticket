@@ -7,4 +7,5 @@ public interface ResultCode {
     long code();
 
     String message();
+
 }

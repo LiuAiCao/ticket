@@ -1,5 +1,7 @@
-package com.company.common.framework.model.response;
+package com.company.common.framework.model.response.code;
 
+
+import com.company.common.framework.model.response.ResultCode;
 
 public enum  BaseResultCode implements ResultCode {
     SUSSESS(true,10000,"操作成功!"),
@@ -23,14 +25,14 @@ public enum  BaseResultCode implements ResultCode {
     }
 
     public boolean success() {
-        return false;
+        return this.success;
     }
 
     public long code() {
-        return 0;
+        return this.code;
     }
 
     public String message() {
-        return null;
+        return this.message;
     }
 }

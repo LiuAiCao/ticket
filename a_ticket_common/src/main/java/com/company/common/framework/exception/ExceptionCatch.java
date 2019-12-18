@@ -1,7 +1,7 @@
 package com.company.common.framework.exception;
 
 import com.company.common.framework.model.response.BaseResponse;
-import com.company.common.framework.model.response.BaseResultCode;
+import com.company.common.framework.model.response.code.BaseResultCode;
 import com.company.common.framework.model.response.ResultCode;
 import com.google.common.collect.ImmutableMap;
 import org.slf4j.Logger;
